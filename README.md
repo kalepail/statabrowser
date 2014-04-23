@@ -6,6 +6,8 @@ Currently detecting Safari, Chrome and Firefox. Looking to add IE and Opera.
 
 ## Use
 
+[Watch the video](http://youtu.be/4QByIQfD4ek)
+
 	<audio src="{{ if {browser} == 'safari' }}
 			{{ m4a }}
 		{{ else }}
