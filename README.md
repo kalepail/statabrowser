@@ -8,15 +8,17 @@ Currently detecting Safari, Chrome and Firefox. Looking to add IE and Opera.
 
 [Watch the video](http://youtu.be/4QByIQfD4ek)
 
-	<audio src="{{ if {browser} == 'safari' }}
-			{{ m4a }}
-		{{ else }}
-			{{ mp3 }}
-		{{ endif }}" type="audio/mpeg">
-	</audio>
-
-	{{ if {browser} }}
-		We love modern browsers!
+```html
+<audio src="{{ if {browser} == 'safari' }}
+		{{ m4a }}
 	{{ else }}
-		Get a real browser you goof!!
-	{{ endif }}
+		{{ mp3 }}
+	{{ endif }}" type="audio/mpeg">
+</audio>
+
+{{ if {browser} }}
+	We love modern browsers!
+{{ else }}
+	Get a real browser you goof!!
+{{ endif }}
+```
