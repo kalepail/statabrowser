@@ -1,6 +1,6 @@
 # Statabrowser
 
-Browser is a dead simple add-on for detecting which browser your client is currently using.
+Statabrowser is a dead simple Statamic add-on for detecting which browser your client is currently using.
 
 Currently detecting Safari, Chrome and Firefox. Looking to add IE and Opera.
 
