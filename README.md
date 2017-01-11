@@ -1,4 +1,4 @@
-# Browser
+# Statabrowser
 
 Browser is a dead simple add-on for detecting which browser your client is currently using.
 
